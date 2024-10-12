@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="styles.css">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV Personnel en ligne</title>
+  </head>
+  
+  <body>
+    <div class="container">
+	
+		<header>
+			<h1>CV Personnel</h1>
+			<p>Un apercu de mes competences et mon parcours professionnel</p>
+		</header>
+		
+		<section>
+			<h2 class="section-title">Informations de Contact</h2>
+			<img src="https://www.aubanel-for-business.com/wp-content/uploads/2023/02/image_preview.jpg" alt="Photo de Profil">
+			<p><strong>Amine Faris<strong></p>
+			<p>Email : a.faris@edu.umi.ac.ma</p>
+			<p>Téléphone : +212 6 77 88 77 88</p>
+			<p>Adresse : 25 Ave Zitoune, Meknès, Maroc</p>
+		</section>
+		
+		<section>
+			<h2 class="section-title">Expérience professionnelle</h2>
+			<ol>
+            <li>
+				<strong>Developpeur Web - Tech-Solutions</strong> (Janvier 2023 - Présent)
+				<ul>
+					<li>Développement d'applications web dynamiques enutilisant HTML, CSS, et JavaScript.</li>
+				</ul>
+            </li>
+            <li>
+				<strong>Stagiaire en Informatique - Web-Agency</strong> (Juillet 2022 - Décembre 2022)
+				<ul>
+					<li>Création de sites vitrines pour des petitesentreprises et optimisation SEO.</li>
+				</ul>
+            </li>
+			</ol>
+		</section>
+		
+		<section>
+			<h2 class="section-title">Formation</h2>
+			<table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Diplôme</th>
+                    <th>Établissement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022 - 2024</td>
+                    <td>Liscence en Informatique</td>
+                    <td>Université de WaterLoo, Canada</td>
+                </tr>
+                <tr>
+                    <td>2019 - 2022</td>
+                    <td>Baccalauréat Scientifique</td>
+                    <td>Lycée Eldorado, Casablanca, Maroc</td>
+                </tr>
+            </tbody>
+        </table>
+		</section>
+		
+		<section>
+			<h2 class="section-title">Compétences</h2>
+			<ul>
+				<li>Pragming Languges for Data Science (R, Julia, Python)</li>
+				<li>Responsive Web design</li>
+				<li>Gestion de base de données (SQL)</li>
+				<li>Gestion de projets techniques</li>
+				<li>Travail d'équipe et communication</li>
+				<li>Conception et simulation numérique</li>
+				<li>Réseaux de neurones artificiels</li>
+				<li>Algorithmes d'apprentissage supervisé et non supervisé</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h2 class="section-title">Centres d'interets</h2>
+			<p>Football, Voyages, Programmation, Musique, Sports</p>
+		</section>
+		
+		<section>
+			<h2 class="section-title">Formulaire de Contact</h2>
+			<form action="envoyer_message.php" method="POST"> <!-- Remplace par le fichier qui traitera le message -->
+				<div>
+					<label for="name">Nom :</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div>
+					<label for="email">Email :</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div>
+					<label for="message">Message :</label>
+					<textarea id="message" name="message" rows="5" required></textarea>
+				</div>
+				<button type="submit">Envoyer</button>
+			</form>
+		</section>
+
+		<section>
+			<h2 class="section-title">Liens et téléchargement</h2>
+			<a href="ton-cv.pdf" download class="button">Télécharger le CV (PDF)</a>
+			<p><a href="https://www.linkedin.com/in/amine-faris-645096277/" target="_blank">Mon profil LinkedIn</a></p>
+		</section>
+		
+	</div>
+  </body>
+</html>
